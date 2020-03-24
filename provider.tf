@@ -8,18 +8,19 @@ provider "azurerm" {
 }
 variable "subscription_id" {
   description = "Subscription ID"
-  default = "Removed for security reason"
+  default = "807b3293-7ac3-450c-8876-59aa17fdf275"
 }
 variable "client_id" {
   description = "Web App Id"
-  default = "Removed for security reason"
+  default = "f33a284e-ad7a-45fb-aa8f-85d62b328426"
 }
 variable "client_secret" {
   description = "Key for Service principal"
-  default = "Removed for security reason"
+  default = "uCw2B0ksV9T-]kEs1Iv-Symq]mGq?dxe"
 }
 variable "tenant_id" {
   description = "Tenant ID from AD"
-  default = "Removed for security reason"
+  default = "687f51c3-0c5d-4905-84f8-97c683a5b9d1"
 }
+
 
